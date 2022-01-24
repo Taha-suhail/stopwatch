@@ -1,0 +1,80 @@
+body{
+    /* margin:0px;
+    padding: 0px; */
+    background-color: #F9E4D4;
+    
+}
+.stopwatch{
+    position: absolute;
+    left: 30%;
+    border-radius: 17px;
+background: #e089e6;
+box-shadow:  -18px 18px 40px #5a375c,
+             18px -18px 40px #ffdbff;
+    text-align: center;
+    top: 200px;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+    
+}
+h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+#button-start, #button-stop, #button-reset {
+    background: #057496;
+    background-image: -webkit-linear-gradient(top, #057496, #52bdff);
+    background-image: -moz-linear-gradient(top, #057496, #52bdff);
+    background-image: -ms-linear-gradient(top, #057496, #52bdff);
+    background-image: -o-linear-gradient(top, #057496, #52bdff);
+    background-image: linear-gradient(to bottom, #057496, #52bdff);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 22px 13px 22px;
+    text-decoration: none;
+  }
+  
+  #button-start:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  #button-stop:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  #button-reset:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+  @media (max-width: 1028px){
+      .stopwatch{
+        position: absolute;
+        top: 94px;
+        left: -103px;
+        right: -90px;
+      }
+  }
+  p{
+      color: black;
+      font-size: 40px;
+      font-weight: bold;
+
+  }
